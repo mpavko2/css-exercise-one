@@ -1,6 +1,26 @@
 body  {
   font-size: 14px;
 }
+.element {
+  background-color: green;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.example, h3 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
 
 nav {
   background-color: yellow;
@@ -10,35 +30,12 @@ nav {
   width: 100%;
 }
 
-section {
-  margin: 0 auto;
-  width: 60%;
-}
-
-h1 {
-  font-family: sans-serif;
-  font-size: 2em;
-}
-
-.example, h3 {
-  padding-top: 30px;
-  text-align: center;
-}
-
-h3 {
-  font-size: 1.3em;
-}
-
-.element {
-  background-color: green;
-  height: 100px;
-  margin: 10px 0;
-  width: 100%;
-}
 /**** css for last three div elements ****/
 .secondelement {
   background-color: orange;
-  height: 100px;
-  margin: 10px 0;
-  width: 100%;
+}
+
+section {
+  margin: 0 auto;
+  width: 60%;
 }
